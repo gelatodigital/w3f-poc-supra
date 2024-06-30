@@ -23,11 +23,10 @@ describe("Supra Tests", function () {
   let userArgs: {};
 
   before(async function () {
-    //await deployments.fixture();
+
 
     [owner] = await hre.ethers.getSigners();
 
-    //oracle = await ethers.getContract("DIASignedOracleMultiple");
 
     const contractAbi = ORACLE_ABI // Path of your smart contract ABI
 
